@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventúria | Agência de Viagens Premium - Transforme seus sonhos em realidade</title>
+    <meta name="description" content="Aventúria - A melhor agência de viagens do Brasil. Pacotes nacionais e internacionais, viagens personalizadas e suporte 24h. Sua aventura começa aqui!">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="img/hero-bg.jpg" as="image">
+    <link rel="preload" href="css/style.css" as="style">
+</head>
+<body>
+    
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="img/logo-empresa.jpeg" alt="Aventúria" class="logo-img">
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#destinations" class="nav-link">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-plane"></i>
+                        Planejar Viagem
+                    </a>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-video">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/travel-hero.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-particles" id="hero-particles"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <img src="img/logo-empresa.jpeg" alt="Aventúria" class="logo-img-hero">
+                    
+                    <p class="hero-subtitle">
+                        Descubra o mundo com a Aventúria. Experiências únicas, 
+                        roteiros personalizados e momentos inesquecíveis te aguardam.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#destinations" class="btn btn-primary btn-large">
+                            <i class="fas fa-compass"></i>
+                            Explorar Destinos
+                        </a>
+                        <a href="#about" class="btn btn-outline btn-large">
+                            <i class="fas fa-play"></i>
+                            Nossa História
+                        </a>
+                    </div>
+                </div>                
+                
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span>Role para descobrir</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Conheça a Aventúria</span>
+                <h2 class="section-title">Sua jornada premium <span class="highlight">começa aqui</span></h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="img/Judson-Joyce.jpg" alt="Judson e Joyce - Fundadores da Aventúria">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <div class="about-story">
+                        <h3>Judson e Joyce</h3>
+                        <p class="story-intro">
+                            Somos apaixonados por explorar o mundo e acreditamos que cada viagem 
+                            é uma oportunidade única de crescimento e descoberta.
+                        </p>
+                        <p>
+                            Na Aventúria, facilitamos suas viagens com tecnologia de ponta e 
+                            atendimento personalizado. Nosso objetivo é proporcionar experiências 
+                            inesquecíveis, cuidando de cada detalhe para que sua única preocupação 
+                            seja aproveitar cada momento.
+                        </p>
+                        <p>
+                            Agora você pode utilizar Bitcoin como forma de pagamento, 
+                            tornando suas viagens ainda mais acessíveis e modernas.
+                        </p>
+                    </div>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Experiência Premium</h4>
+                                <p>Mais de 10 anos criando viagens extraordinárias</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fab fa-bitcoin"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Pagamento Moderno</h4>
+                                <p>Aceite Bitcoin e métodos tradicionais</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Suporte 24/7</h4>
+                                <p>Assistência completa durante toda sua jornada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-background">
+            <div class="floating-elements">
+                <div class="floating-element" data-speed="2"></div>
+                <div class="floating-element" data-speed="3"></div>
+                <div class="floating-element" data-speed="1"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Nossos Serviços</span>
+                <h2 class="section-title">Experiências <span class="highlight">sob medida</span></h2>
+                <p class="section-description">
+                    Oferecemos soluções completas para tornar sua viagem perfeita, 
+                    desde o planejamento até o retorno para casa.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Pacotes Nacionais</h3>
+                        <p>Descubra as belezas do Brasil com roteiros exclusivos e experiências autênticas.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Roteiros personalizados</li>
+                            <li><i class="fas fa-check"></i> Guias especializados</li>
+                            <li><i class="fas fa-check"></i> Hospedagem premium</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <a href="#contact" class="btn btn-outline">Saiba Mais</a>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-badge">Mais Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Pacotes Internacionais</h3>
+                        <p>Explore o mundo com segurança e conforto. Destinos únicos te aguardam.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Documentação completa</li>
+                            <li><i class="fas fa-check"></i> Seguro viagem</li>
+                            <li><i class="fas fa-check"></i> Suporte internacional</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <a href="#contact" class="btn btn-primary">Explorar</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Viagens Personalizadas</h3>
+                        <p>Crie sua aventura dos sonhos com roteiros 100% customizados para você.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Consultoria especializada</li>
+                            <li><i class="fas fa-check"></i> Flexibilidade total</li>
+                            <li><i class="fas fa-check"></i> Experiências exclusivas</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <a href="#contact" class="btn btn-outline">Personalizar</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Suporte Completo</h3>
+                        <p>Tenha total tranquilidade com nossa assistência dedicada 24/7.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Atendimento 24h</li>
+                            <li><i class="fas fa-check"></i> Emergência médica</li>
+                            <li><i class="fas fa-check"></i> Suporte técnico</li>
+                        </ul>
+                    </div>
+                    <div class="service-hover">
+                        <a href="#contact" class="btn btn-outline">Conhecer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Destinos Populares</span>
+                <h2 class="section-title">Lugares que vão <span class="highlight">te encantar</span></h2>
+            </div>
+            
+            <div class="destinations-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="nacional">Nacional</button>
+                <button class="filter-btn" data-filter="internacional">Internacional</button>
+                <button class="filter-btn" data-filter="aventura">Aventura</button>
+            </div>
+            
+            <div class="destinations-grid">
+                <div class="destination-card" data-category="nacional">
+                    <div class="destination-image">
+                                               <img src="img/Alagoas.jpg" alt="Alagoas">
+                        <div class="destination-overlay">
+                            <div class="destination-info">
+                                <span class="destination-price"></span>
+                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h3>Alagoas</h3>
+                            <div class="destination-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p class="destination-description">Já imaginou conhecer Maragogi - Alagoas ainda esse ano 🤩🏝️Vem com Aventúria que é possível ✅Nossos pacotes são completos e você pode desfrutar de uma viagem incrível!</p>
+                        <div class="destination-features">
+                            <span class="feature-tag"><i class="fas fa-mountain"></i> Aventura</span>
+                            <span class="feature-tag"><i class="fas fa-camera"></i> Fotografia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="internacional">
+                    <div class="destination-image">
+                        <img src="img/Jericoacoara.jpg" alt="Paris">
+                        <div class="destination-overlay">
+                            <div class="destination-info">
+                                <span class="destination-price"></span>
+                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h3>Jericoacoara</h3>
+                            <div class="destination-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <p class="destination-description">Partiu visitar JERICOACOARA 🏝️📌 Jericoacoara é um destino turístico muito procurado no Ceará por suas belezas naturais, como praias, lagoas, dunas e a Pedra Furada ✅ Vamos Link na Bio 📲Pode ser realidade 🤩</p>
+                        <div class="destination-features">
+                            <span class="feature-tag"><i class="fas fa-palette"></i> Cultura</span>
+                            <span class="feature-tag"><i class="fas fa-utensils"></i> Gastronomia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="aventura">
+                    <div class="destination-image">
+                        <img src="img/nordeste.jpg" alt="Patagônia">
+                        <div class="destination-overlay">
+                            <div class="destination-info">
+                                <span class="destination-price"></span>
+                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h3>Nordeste</h3>
+                            <div class="destination-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                        <p class="destination-description">Vamos explorar seu próximo destino Confira nossos pacotes incríveis 🤩</p>
+                        <div class="destination-features">
+                            <span class="feature-tag"><i class="fas fa-palette"></i> Cultura</span>
+                            <span class="feature-tag"><i class="fas fa-utensils"></i> Gastronomia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="nacional">
+                    <div class="destination-image">
+                        <img src="img/rio-de-janeiro.jpeg" alt="Fernando de Noronha">
+                        <div class="destination-overlay">
+                            <div class="destination-info">
+                                <span class="destination-price"></span>
+                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h3>Rio de Janeiro</h3>
+                            <div class="destination-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p class="destination-description">🌍 Ilha Grande é um refúgio de beleza natural no litoral do Rio de Janeiro. Suas praias paradisíacas, como a Praia de Lopes Mendes.</p>
+                        <div class="destination-features">
+                            <span class="feature-tag"><i class="fas fa-swimmer"></i> Mergulho</span>
+                            <span class="feature-tag"><i class="fas fa-sun"></i> Praia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="internacional">
+                    <div class="destination-image">
+                        <img src="img/sao-luiz.jpeg" alt="Tóquio">
+                        <div class="destination-overlay">
+                            <div class="destination-info">
+                                <span class="destination-price"></span>
+                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h3>São Luís</h3>
+                            <div class="destination-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                            </div>
+                        </div>
+                        <p class="destination-description">Tradição e modernidade se encontram na capital japonesa.</p>
+                        <div class="destination-features">
+                            <span class="feature-tag"><i class="fas fa-torii-gate"></i> Tradição</span>
+                            <span class="feature-tag"><i class="fas fa-city"></i> Modernidade</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="aventura">
+                    <div class="destination-image">
+                        <img src="img/Porto-de-Galinhas.jpeg" alt="Machu Picchu">
+                        <div class="destination-overlay">
+                            <div class="destination-info">
+                                <span class="destination-price">A partir de R$ 1.200</span>
+                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h3>Porto de Galinhas</h3>
+                            <div class="destination-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <p class="destination-description">🌍 Porto de Galinhas, um paraíso em Pernambuco! Descubra as maravilhas de Porto de Galinhas, um dos destinos mais deslumbrantes de Pernambuco.</p>
+                        <div class="destination-features">
+                            <span class="feature-tag"><i class="fas fa-landmark"></i> História</span>
+                            <span class="feature-tag"><i class="fas fa-swimmer"></i> Mergulho</span>
+                            <span class="feature-tag"><i class="fas fa-sun"></i> Praia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials-background">
+            <div class="testimonials-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Depoimentos</span>
+                <h2 class="section-title">O que nossos <span class="highlight">clientes dizem</span></h2>
+            </div>
+            
+            <div class="testimonials-slider" id="testimonials-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"A Aventúria transformou nossa lua de mel em uma experiência mágica! Cada detalhe foi pensado com carinho. Paris nunca foi tão romântica. Recomendamos de olhos fechados!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="img/client-maria.jpg" alt="Maria Silva">
+                            </div>
+                            <div class="author-info">
+                                <h4>Maria & Carlos Silva</h4>
+                                <span>Paris, França</span>
+                                <div class="author-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"Incrível como a equipe conseguiu organizar nossa aventura na Chapada Diamantina! Trilhas espetaculares, hospedagem perfeita e um atendimento que superou todas as expectativas."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="img/client-joao.jpg" alt="João Pereira">
+                            </div>
+                            <div class="author-info">
+                                <h4>João Pereira</h4>
+                                <span>Chapada Diamantina, Brasil</span>
+                                <div class="author-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"Tóquio foi um sonho realizado! A Aventúria cuidou de tudo, desde os voos até as experiências culturais mais autênticas. Voltaremos com certeza para nossa próxima aventura!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="img/client-ana.jpg" alt="Ana Costa">
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Costa</h4>
+                                <span>Tóquio, Japão</span>
+                                <div class="author-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="testimonial-btn prev-btn" id="prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonials-dots" id="testimonials-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="testimonial-btn next-btn" id="next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Entre em Contato</span>
+                <h2 class="section-title">Vamos planejar sua <span class="highlight">próxima aventura</span></h2>
+                <p class="section-description">
+                    Nossa equipe está pronta para transformar seus sonhos de viagem em realidade. 
+                    Entre em contato e descubra como podemos ajudar.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <p>+55 (11) 9999-9999</p>
+                                                        <span>Seg - Sex: 8h às 18h</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>E-mail</h4>
+                            <p>contato@aventuria.com.br</p>
+                            <span>Resposta em até 2h</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Endereço</h4>
+                            <p>São Paulo, SP</p>
+                            <span>Atendimento presencial</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="https://wa.me/5511999999999" target="_blank" class="social-link whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="https://instagram.com/aventuriaviagens" target="_blank" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="mailto:contato@aventuria.com.br" class="social-link email">
+                                <i class="fas fa-envelope"></i>
+                                <span>E-mail</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="destination">Destino de Interesse</label>
+                            <select id="destination" name="destination">
+                                <option value="">Selecione um destino</option>
+                                <option value="nacional">Destinos Nacionais</option>
+                                <option value="internacional">Destinos Internacionais</option>
+                                <option value="personalizado">Viagem Personalizada</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Conte-nos sobre sua viagem dos sonhos..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <img src="img/logo-empresa.jpeg" alt="Aventúria">
+                        </div>
+                        <p class="footer-description">
+                            Transformamos seus sonhos em aventuras reais. 
+                            Sua jornada premium começa aqui.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://instagram.com/aventuriaviagens" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/558481733907" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="mailto:contato@aventuria.com.br">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Navegação</h4>
+                            <ul>
+                                <li><a href="#home">Início</a></li>
+                                <li><a href="#about">Sobre</a></li>
+                                <li><a href="#services">Serviços</a></li>
+                                <li><a href="#destinations">Destinos</a></li>
+                                <li><a href="#contact">Contato</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Serviços</h4>
+                            <ul>
+                                <li><a href="#services">Pacotes Nacionais</a></li>
+                                <li><a href="#services">Pacotes Internacionais</a></li>
+                                <li><a href="#services">Viagens Personalizadas</a></li>
+                                <li><a href="#services">Suporte 24/7</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Contato</h4>
+                            <ul>
+                                <li><i class="fas fa-phone"></i> +55 (84) 98173-3907</li>
+                                <li><i class="fas fa-envelope"></i> contato@aventuria.com.br</li>
+                               <!---<li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>-->
+                                <li><i class="fab fa-bitcoin"></i> Aceitamos Bitcoin</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>&copy; 2024 Aventúria - Agência de Viagens. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="footer-legal">
+                        <a href="#privacy">Política de Privacidade</a>
+                        <a href="#terms">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-decoration">
+            <div class="decoration-element"></div>
+            <div class="decoration-element"></div>
+            <div class="decoration-element"></div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/558481733907" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-text">Fale Conosco</span>
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="lib/scrollreveal.min.js"></script>
+    <script src="lib/gsap.min.js"></script>
+    <script src="lib/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</body>
+</html>
+
+
