@@ -1817,7 +1817,7 @@ p {
 }
 
 .about .section-title {
-    color: var(--white);
+    color: var(--light-text-color);
     font-size: 3rem;
     margin-bottom: 20px;
 }
@@ -3729,6 +3729,8 @@ p {
         bottom: -8px;
     }
 }
+
+
 
 /* Efeitos especiais para destacar ainda mais a imagem */
 .image-inner-frame::before {

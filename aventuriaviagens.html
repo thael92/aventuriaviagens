@@ -4,12 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aventúria | Agência de Viagens Premium - Transforme seus sonhos em realidade</title>
-    <meta name="description"
-        content="Aventúria - A melhor agência de viagens do Brasil. Pacotes nacionais e internacionais, viagens personalizadas e suporte 24h. Sua aventura começa aqui!">
+    
+    <!-- SEO Meta Tags -->
+    <title>Aventúria | Agência de Viagens Premium - Pacotes Nacionais e Internacionais</title>
+    <meta name="description" content="Aventúria - Agência de viagens premium especializada em pacotes nacionais e internacionais. Viagens personalizadas para Alagoas, Jericoacoara, Rio de Janeiro e destinos internacionais. Suporte 24h e parcerias com as melhores companhias aéreas.">
+    <meta name="keywords" content="agência de viagens, pacotes de viagem, viagens nacionais, viagens internacionais, Alagoas, Jericoacoara, Rio de Janeiro, Porto de Galinhas, turismo, férias, lua de mel, aventura">
+    <meta name="author" content="Aventúria Agência de Viagens">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aventuriaviagens.com.br/">
+    <meta property="og:title" content="Aventúria | Agência de Viagens Premium - Transforme seus sonhos em realidade">
+    <meta property="og:description" content="Descubra destinos incríveis com a Aventúria. Pacotes personalizados, suporte 24h e parcerias com as melhores companhias aéreas. Sua aventura começa aqui!">
+    <meta property="og:image" content="https://aventuriaviagens.com.br/img/logo-empresa.jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Aventúria Agência de Viagens">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aventuriaviagens.com.br/">
+    <meta property="twitter:title" content="Aventúria | Agência de Viagens Premium">
+    <meta property="twitter:description" content="Transformamos seus sonhos em aventuras reais. Pacotes nacionais e internacionais com suporte 24h.">
+    <meta property="twitter:image" content="https://aventuriaviagens.com.br/img/logo-empresa.jpeg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aventuriaviagens.com.br/">
 
     <!-- Favicon -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/logo-empresa.jpeg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/logo-empresa.jpeg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,108 +53,261 @@
     <!-- Preload critical resources -->
     <link rel="preload" href="img/hero-bg.jpg" as="image">
     <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="css/style.css"></noscript>
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Aventúria Agência de Viagens",
+        "description": "Agência de viagens premium especializada em pacotes nacionais e internacionais com suporte 24h",
+        "url": "https://aventuriaviagens.com.br",
+        "logo": "https://aventuriaviagens.com.br/img/logo-empresa.jpeg",
+        "image": "https://aventuriaviagens.com.br/img/logo-empresa.jpeg",
+        "telephone": "+5584981733907",
+        "email": "contato@aventuria.com.br",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "BR",
+            "addressRegion": "RN"
+        },
+        "sameAs": [
+            "https://instagram.com/aventuriaviagens",
+            "https://wa.me/558481733907"
+        ],
+        "priceRange": "$$",
+        "serviceArea": {
+            "@type": "Country",
+            "name": "Brasil"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Pacotes de Viagem",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "TouristTrip",
+                        "name": "Pacotes Nacionais",
+                        "description": "Viagens para destinos brasileiros como Alagoas, Jericoacoara, Rio de Janeiro"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "TouristTrip",
+                        "name": "Pacotes Internacionais",
+                        "description": "Viagens internacionais personalizadas"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <!-- Structured Data - Destinations -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Destinos Populares Aventúria",
+        "itemListElement": [
+            {
+                "@type": "TouristDestination",
+                "position": 1,
+                "name": "Alagoas - Maragogi",
+                "description": "Conheça as praias paradisíacas de Maragogi em Alagoas com pacotes completos",
+                "image": "https://aventuriaviagens.com.br/img/Alagoas.jpg",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "-9.0124",
+                    "longitude": "-35.2315"
+                }
+            },
+            {
+                "@type": "TouristDestination",
+                "position": 2,
+                "name": "Jericoacoara - Ceará",
+                "description": "Explore as belezas naturais de Jericoacoara: praias, lagoas, dunas e a famosa Pedra Furada",
+                "image": "https://aventuriaviagens.com.br/img/Jericoacoara.jpg",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "-2.7928",
+                    "longitude": "-40.5186"
+                }
+            },
+            {
+                "@type": "TouristDestination",
+                "position": 3,
+                "name": "Rio de Janeiro - Ilha Grande",
+                "description": "Descubra as belezas da Ilha Grande no litoral do Rio de Janeiro",
+                "image": "https://aventuriaviagens.com.br/img/rio-de-janeiro.jpeg",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "-23.1394",
+                    "longitude": "-44.1678"
+                }
+            },
+            {
+                "@type": "TouristDestination",
+                "position": 4,
+                "name": "Porto de Galinhas - Pernambuco",
+                "description": "Um paraíso em Pernambuco com praias cristalinas e piscinas naturais",
+                "image": "https://aventuriaviagens.com.br/img/Porto-de-Galinhas.jpeg",
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "-8.5014",
+                    "longitude": "-35.0042"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Structured Data - Reviews -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Aventúria Agência de Viagens",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "150",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Maria & Carlos Silva"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                },
+                "reviewBody": "A Aventúria transformou nossa lua de mel em uma experiência mágica! Cada detalhe foi pensado com carinho. Paris nunca foi tão romântica. Recomendamos de olhos fechados!"
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "João Pereira"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                },
+                "reviewBody": "Incrível como a equipe conseguiu organizar nossa aventura na Chapada Diamantina! Trilhas espetaculares, hospedagem perfeita e um atendimento que superou todas as expectativas."
+            }
+        ]
+    }
+    </script>
 
 </head>
 
 <body>
 
-
     <!-- Header -->
-    <header class="header" id="header">
-        <nav class="navbar">
+    <header class="header" id="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Menu principal">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <img src="img/logo-empresa.jpeg" alt="Aventúria" class="logo-img">
+                    <img src="img/logo-empresa.jpeg" alt="Aventúria - Agência de Viagens Premium" class="logo-img" width="50" height="50">
                 </div>
 
-                <ul class="nav-menu" id="nav-menu">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Início</a>
+                <ul class="nav-menu" id="nav-menu" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a href="#home" class="nav-link" role="menuitem" aria-label="Ir para seção inicial">Início</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">Sobre</a>
+                    <li class="nav-item" role="none">
+                        <a href="#about" class="nav-link" role="menuitem" aria-label="Conhecer sobre a Aventúria">Sobre</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#services" class="nav-link">Serviços</a>
+                    <li class="nav-item" role="none">
+                        <a href="#services" class="nav-link" role="menuitem" aria-label="Ver nossos serviços">Serviços</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#destinations" class="nav-link">Destinos</a>
+                    <li class="nav-item" role="none">
+                        <a href="#destinations" class="nav-link" role="menuitem" aria-label="Explorar destinos">Destinos</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#testimonials" class="nav-link">Depoimentos</a>
+                    <li class="nav-item" role="none">
+                        <a href="#testimonials" class="nav-link" role="menuitem" aria-label="Ler depoimentos">Depoimentos</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contato</a>
+                    <li class="nav-item" role="none">
+                        <a href="#contact" class="nav-link" role="menuitem" aria-label="Entrar em contato">Contato</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#airlines" class="nav-link">Parceiros</a>
+                    <li class="nav-item" role="none">
+                        <a href="#airlines" class="nav-link" role="menuitem" aria-label="Ver parceiros">Parceiros</a>
                     </li>
                 </ul>
 
                 <div class="nav-actions">
-                    <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-plane"></i>
+                    <a href="#contact" class="btn btn-primary" aria-label="Planejar sua viagem">
+                        <i class="fas fa-plane" aria-hidden="true"></i>
                         Planejar Viagem
                     </a>
-                    <div class="hamburger" id="hamburger">
+                    <button class="hamburger" id="hamburger" aria-label="Abrir menu mobile" aria-expanded="false">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </div>
+                    </button>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero" role="banner">
         <div class="hero-background">
             <div class="hero-video">
-                <video autoplay muted loop playsinline>
+                <video autoplay muted loop playsinline aria-label="Vídeo de destinos de viagem">
                     <source src="videos/travel-hero.mp4" type="video/mp4">
                 </video>
                 <div class="video-overlay"></div>
             </div>
-            <div class="hero-particles" id="hero-particles"></div>
+            <div class="hero-particles" id="hero-particles" aria-hidden="true"></div>
         </div>
 
         <div class="hero-content">
             <div class="container">
                 <div class="hero-text">
-                    <img src="img/logo-empresa.jpeg" alt="Aventúria" class="logo-img-hero">
+                    <img src="img/logo-empresa.jpeg" alt="Aventúria - Agência de Viagens Premium" class="logo-img-hero" width="200" height="200">
 
+                    <h1 class="hero-title">Transforme seus sonhos em <span class="highlight">aventuras reais</span></h1>
                     <p class="hero-subtitle">
                         Descubra o mundo com a Aventúria. Experiências únicas,
                         roteiros personalizados e momentos inesquecíveis te aguardam.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#destinations" class="btn btn-primary btn-large">
-                            <i class="fas fa-compass"></i>
+                        <a href="#destinations" class="btn btn-primary btn-large" aria-label="Explorar destinos disponíveis">
+                            <i class="fas fa-compass" aria-hidden="true"></i>
                             Explorar Destinos
                         </a>
-                        <a href="#about" class="btn btn-outline btn-large">
-                            <i class="fas fa-play"></i>
+                        <a href="#about" class="btn btn-outline btn-large" aria-label="Conhecer nossa história">
+                            <i class="fas fa-play" aria-hidden="true"></i>
                             Nossa História
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
 
         <div class="hero-scroll">
             <div class="scroll-indicator">
                 <span>Role para descobrir</span>
-                <div class="scroll-arrow"></div>
+                <div class="scroll-arrow" aria-hidden="true"></div>
             </div>
         </div>
     </section>
 
-    <!-- About Section - Redesigned -->
-    <section id="about" class="about">
+        <!-- About Section -->
+    <section id="about" class="about" role="main">
         <div class="about-background">
-            <div class="floating-shapes">
+            <div class="floating-shapes" aria-hidden="true">
                 <div class="shape shape-1"></div>
                 <div class="shape shape-2"></div>
                 <div class="shape shape-3"></div>
@@ -140,26 +319,25 @@
             <div class="section-header">
                 <span class="section-subtitle">Conheça a Aventúria</span>
                 <p class="section-description">
-                    Transformamos sonhos em aventuras reais com paixão e dedicação
+                    Somos uma agência de viagens premium especializada em criar experiências únicas e inesquecíveis para nossos clientes
                 </p>
             </div>
 
             <div class="about-showcase">
                 <div class="image-spotlight">
-                    <div class="spotlight-ring with-trail"></div>
-                    <div class="spotlight-glow with-trail"></div>
+                    <div class="spotlight-ring with-trail" aria-hidden="true"></div>
+                    <div class="spotlight-glow with-trail" aria-hidden="true"></div>
 
                     <div class="image-container">
                         <div class="image-frame">
                             <div class="image-inner-frame">
-                                <img src="img/quem-somos.png" alt="Judson e Joyce - Fundadores da Aventúria"
-                                    class="main-image" id="mainImage">
+                                <img src="img/quem-somos.png" alt="Judson e Joyce - Fundadores da Aventúria Agência de Viagens"
+                                    class="main-image" id="mainImage" width="400" height="300">
                             </div>
                         </div>
 
-
                         <!-- Elementos decorativos flutuantes -->
-                        <div class="floating-elements">
+                        <div class="floating-elements" aria-hidden="true">
                             <div class="floating-icon" data-delay="0">
                                 <i class="fas fa-plane"></i>
                             </div>
@@ -180,15 +358,15 @@
                             </div>
                         </div>
                     </div>
-
-
+                </div>
+            </div>
+        </div>
     </section>
 
-
     <!-- Services Section -->
-    <section id="services" class="services">
+    <section id="services" class="services" role="main">
         <div class="services-background">
-            <div class="floating-elements">
+            <div class="floating-elements" aria-hidden="true">
                 <div class="floating-element" data-speed="2"></div>
                 <div class="floating-element" data-speed="3"></div>
                 <div class="floating-element" data-speed="1"></div>
@@ -206,88 +384,67 @@
             </div>
 
             <div class="services-grid">
-                <div class="service-card">
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-map-marked-alt"></i>
+                        <img src="img/parceiro-roa.jpeg" alt="Parceiros ROA - Rede de agências parceiras" width="300" height="200">
                     </div>
                     <div class="service-content">
-                        <h3>Pacotes Nacionais</h3>
-                        <p>Descubra as belezas do Brasil com roteiros exclusivos e experiências autênticas.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Roteiros personalizados</li>
-                            <li><i class="fas fa-check"></i> Guias especializados</li>
-                            <li><i class="fas fa-check"></i> Hospedagem premium</li>
-                        </ul>
+                        <h3>Rede de Parceiros</h3>
+                        <p>Trabalhamos com uma ampla rede de parceiros confiáveis para garantir a melhor experiência</p>
                     </div>
                     <div class="service-hover">
-                        <a href="#contact" class="btn btn-outline">Saiba Mais</a>
+                        <a href="#contact" class="btn btn-outline" aria-label="Saiba mais sobre nossos parceiros">Saiba Mais</a>
                     </div>
-                </div>
+                </article>
 
-                <div class="service-card featured">
-                    <div class="service-badge">Mais Popular</div>
+                <article class="service-card featured">
                     <div class="service-icon">
-                        <i class="fas fa-globe-americas"></i>
+                        <img src="img/dicas-economizar.jpeg" alt="Dicas para economizar em viagens" width="300" height="200">
                     </div>
                     <div class="service-content">
-                        <h3>Pacotes Internacionais</h3>
-                        <p>Explore o mundo com segurança e conforto. Destinos únicos te aguardam.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Documentação completa</li>
-                            <li><i class="fas fa-check"></i> Seguro viagem</li>
-                            <li><i class="fas fa-check"></i> Suporte internacional</li>
-                        </ul>
+                        <h3>Dicas de Economia</h3>
+                        <p>Orientações especializadas para você viajar mais gastando menos, sem abrir mão da qualidade</p>
                     </div>
                     <div class="service-hover">
-                        <a href="#contact" class="btn btn-primary">Explorar</a>
+                        <a href="#contact" class="btn btn-primary" aria-label="Explorar dicas de economia">Explorar</a>
                     </div>
-                </div>
+                </article>
 
-                <div class="service-card">
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-user-cog"></i>
+                        <img src="img/dica-viagens.jpeg" alt="Dicas especializadas de viagem" width="300" height="200">
                     </div>
                     <div class="service-content">
-                        <h3>Viagens Personalizadas</h3>
-                        <p>Crie sua aventura dos sonhos com roteiros 100% customizados para você.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Consultoria especializada</li>
-                            <li><i class="fas fa-check"></i> Flexibilidade total</li>
-                            <li><i class="fas fa-check"></i> Experiências exclusivas</li>
-                        </ul>
+                        <h3>Consultoria Especializada</h3>
+                        <p>Dicas personalizadas e consultoria especializada para tornar sua viagem única e especial</p>
                     </div>
                     <div class="service-hover">
-                        <a href="#contact" class="btn btn-outline">Personalizar</a>
+                        <a href="#contact" class="btn btn-outline" aria-label="Saiba mais sobre consultoria">Saiba Mais</a>
                     </div>
-                </div>
+                </article>
 
-                <div class="service-card">
+                <article class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
+                        <img src="img/suporte.jpeg" alt="Suporte 24 horas para viajantes" width="300" height="200">
                     </div>
                     <div class="service-content">
-                        <h3>Suporte Completo</h3>
-                        <p>Tenha total tranquilidade com nossa assistência dedicada 24/7.</p>
-                        <ul class="service-features">
-                            <li><i class="fas fa-check"></i> Atendimento 24h</li>
-                            <li><i class="fas fa-check"></i> Emergência médica</li>
-                            <li><i class="fas fa-check"></i> Suporte técnico</li>
-                        </ul>
+                        <h3>Suporte 24/7</h3>
+                        <p>Atendimento completo 24 horas por dia, 7 dias por semana, para sua tranquilidade</p>
                     </div>
                     <div class="service-hover">
-                        <a href="#contact" class="btn btn-outline">Conhecer</a>
+                        <a href="#contact" class="btn btn-outline" aria-label="Conhecer nosso suporte">Conhecer</a>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!-- Airlines Partners Section -->
-    <section id="airlines" class="airlines-partners" data-scroll-lock="true">
+    <section id="airlines" class="airlines-partners" data-scroll-lock="true" role="main">
         <div class="container">
             <div class="section-header">
                 <span class="section-subtitle">Nossos Parceiros</span>
-                <h2 class="section-title">Companhias aéreas <span class="highlight">de confiança</span></h2>
+                <h2 class="section-title">Companhias Aéreas e Operadores <span class="highlight">de Confiança</span></h2>
                 <p class="section-description">
                     Trabalhamos com as melhores companhias aéreas para garantir
                     conforto e segurança em suas viagens.
@@ -296,90 +453,125 @@
 
             <div class="airlines-container">
                 <div class="airlines-stack" id="airlines-stack">
-                    <div class="airline-card active" data-index="0" data-airline="latam">
+                    <article class="airline-card active" data-index="0" data-airline="latam">
                         <div class="card-content">
-                            <img src="img/parceiro-airlines/latam.png" alt="LATAM Airlines">
-                           
+                            <img src="img/parceiro-airlines/latam.png" alt="LATAM Airlines - Parceiro Aventúria" width="200" height="100">
+                            <h3>LATAM Airlines</h3>
                             <p>Conectando você aos principais destinos da América Latina</p>
                             <div class="card-details">
                                 <span class="route-count">150+ destinos</span>
-                                <span class="rating">★★★★★</span>
+                                <span class="rating" aria-label="Avaliação 5 estrelas">★★★★★</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="airline-card" data-index="1" data-airline="gol">
+                    <article class="airline-card" data-index="1" data-airline="gol">
                         <div class="card-content">
-                            <img src="img/parceiro-airlines/gool.png" alt="GOL Linhas Aéreas">
-                            
+                            <img src="img/parceiro-airlines/gool.png" alt="GOL Linhas Aéreas - Parceiro Aventúria" width="200" height="100">
+                            <h3>GOL Linhas Aéreas</h3>
                             <p>A maior companhia aérea do Brasil com destinos nacionais</p>
                             <div class="card-details">
                                 <span class="route-count">100+ destinos</span>
-                                <span class="rating">★★★★☆</span>
+                                <span class="rating" aria-label="Avaliação 4 estrelas">★★★★☆</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="airline-card" data-index="2" data-airline="azul">
+                    <article class="airline-card" data-index="2" data-airline="azul">
                         <div class="card-content">
-                            <img src="img/parceiro-airlines/azul.png" alt="Azul Linhas Aéreas">
-                            
+                            <img src="img/parceiro-airlines/azul.png" alt="Azul Linhas Aéreas - Parceiro Aventúria" width="200" height="100">
+                            <h3>Azul Linhas Aéreas</h3>
                             <p>Inovação e conforto em voos nacionais e internacionais</p>
                             <div class="card-details">
                                 <span class="route-count">120+ destinos</span>
-                                <span class="rating">★★★★★</span>
+                                <span class="rating" aria-label="Avaliação 5 estrelas">★★★★★</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="airline-card" data-index="3" data-airline="emirates">
+                    <article class="airline-card" data-index="3" data-airline="emirates">
                         <div class="card-content">
-                            <img src="img/parceiro-airlines/Emirates.png" alt="Emirates">
-                           
+                            <img src="img/parceiro-airlines/Emirates.png" alt="Emirates - Parceiro Aventúria" width="200" height="100">
+                            <h3>Emirates</h3>
                             <p>Luxo e excelência em voos internacionais</p>
                             <div class="card-details">
                                 <span class="route-count">160+ destinos</span>
-                                <span class="rating">★★★★★</span>
+                                <span class="rating" aria-label="Avaliação 5 estrelas">★★★★★</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="airline-card" data-index="4" data-airline="lufthansa">
+                    <article class="airline-card" data-index="4" data-airline="lufthansa">
                         <div class="card-content">
-                            <img src="img/parceiro-airlines/Lufthansa.png" alt="Lufthansa">
-                            
+                            <img src="img/parceiro-airlines/Lufthansa.png" alt="Lufthansa - Parceiro Aventúria" width="200" height="100">
+                            <h3>Lufthansa</h3>
                             <p>Tradição alemã conectando você à Europa</p>
                             <div class="card-details">
                                 <span class="route-count">200+ destinos</span>
-                                <span class="rating">★★★★★</span>
+                                <span class="rating" aria-label="Avaliação 5 estrelas">★★★★★</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="airline-card" data-index="5" data-airline="american">
+                    <article class="airline-card" data-index="5" data-airline="american">
                         <div class="card-content">
-                            <img src="img/parceiro-airlines/American-Airlines.png" alt="American Airlines">
+                            <img src="img/parceiro-airlines/American-Airlines.png" alt="American Airlines - Parceiro Aventúria" width="200" height="100">
                             
                             <p>Sua porta de entrada para os Estados Unidos</p>
                             <div class="card-details">
                                 <span class="route-count">350+ destinos</span>
-                                <span class="rating">★★★★☆</span>
+                                <span class="rating" aria-label="Avaliação 4 estrelas">★★★★☆</span>
                             </div>
                         </div>
-                    </div>
+                    </article>
+
+                    <article class="airline-card" data-index="5" data-airline="american">
+                        <div class="card-content">
+                            <img src="img/parceiro-airlines/HotelDO.jpeg" alt="American Airlines - Parceiro Aventúria" width="200" height="100">
+                            <h3></h3>
+                            <p>Melhor estoques hotel da América</p>
+                            <div class="card-details">
+                                <span class="route-count">+ 2,000 destinos</span>
+                                <span class="rating" aria-label="Avaliação 4 estrelas">★★★★★</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="airline-card" data-index="5" data-airline="cativa-operadora">
+                        <div class="card-content">
+                            <img src="img/parceiro-airlines/cativa-operadora.jpeg" alt="cativa-operadora - Parceiro Aventúria" width="400" height="400">
+                           
+                            <p>Melhor estoques hotel da América</p>
+                            <div class="card-details">
+                                <span class="route-count">+30 Mil Bloqueios anuais</span>
+                                <span class="rating" aria-label="Avaliação 4 estrelas">★★★★★</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="airline-card" data-index="5" data-airline="rca-turismo">
+                        <div class="card-content">
+                            <img src="img/parceiro-airlines/rca-turismo.png" alt="rca-turismo" width="400" height="400">
+                           
+                            <p>VÁRIAS ORIGENS E DESTINOS</p>
+                            <div class="card-details">
+                                <span class="route-count">DISNEY Private VIP Tours</span>
+                                <span class="rating" aria-label="Avaliação 4 estrelas">★★★★★</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
 
                 <div class="airlines-info">
                     <div class="info-content" id="airline-info">
                         <div class="airline-detail active" data-airline="latam">
                             <h3>LATAM Airlines</h3>
-                            <p>A maior companhia aérea da América Latina, oferecendo conexões para todo o continente.
-                            </p>
+                            <p>A maior companhia aérea da América Latina, oferecendo conexões para todo o continente.</p>
                             <ul>
-                                <li><i class="fas fa-plane"></i> Frota moderna com mais de 300 aeronaves</li>
-                                <li><i class="fas fa-globe"></i> Voos para 26 países</li>
-                                <li><i class="fas fa-star"></i> Programa LATAM Pass</li>
-                                <li><i class="fas fa-wifi"></i> Wi-Fi gratuito em voos selecionados</li>
+                                <li><i class="fas fa-plane" aria-hidden="true"></i> Frota moderna com mais de 300 aeronaves</li>
+                                <li><i class="fas fa-globe" aria-hidden="true"></i> Voos para 26 países</li>
+                                <li><i class="fas fa-star" aria-hidden="true"></i> Programa LATAM Pass</li>
+                                <li><i class="fas fa-wifi" aria-hidden="true"></i> Wi-Fi gratuito em voos selecionados</li>
                             </ul>
                         </div>
 
@@ -387,10 +579,10 @@
                             <h3>GOL Linhas Aéreas</h3>
                             <p>Líder no mercado doméstico brasileiro, conhecida pela pontualidade e eficiência.</p>
                             <ul>
-                                <li><i class="fas fa-plane"></i> Maior frota do Brasil</li>
-                                <li><i class="fas fa-clock"></i> 95% de pontualidade</li>
-                                <li><i class="fas fa-star"></i> Programa Smiles</li>
-                                <li><i class="fas fa-mobile-alt"></i> Check-in mobile facilitado</li>
+                                <li><i class="fas fa-plane" aria-hidden="true"></i> Maior frota do Brasil</li>
+                                <li><i class="fas fa-clock" aria-hidden="true"></i> 95% de pontualidade</li>
+                                <li><i class="fas fa-star" aria-hidden="true"></i> Programa Smiles</li>
+                                <li><i class="fas fa-mobile-alt" aria-hidden="true"></i> Check-in mobile facilitado</li>
                             </ul>
                         </div>
 
@@ -398,10 +590,10 @@
                             <h3>Azul Linhas Aéreas</h3>
                             <p>Inovação e tecnologia a serviço do passageiro, com foco na experiência do cliente.</p>
                             <ul>
-                                <li><i class="fas fa-plane"></i> Aeronaves Embraer e Airbus</li>
-                                <li><i class="fas fa-heart"></i> Melhor atendimento ao cliente</li>
-                                <li><i class="fas fa-star"></i> Programa TudoAzul</li>
-                                <li><i class="fas fa-tv"></i> Entretenimento a bordo</li>
+                                <li><i class="fas fa-plane" aria-hidden="true"></i> Aeronaves Embraer e Airbus</li>
+                                <li><i class="fas fa-heart" aria-hidden="true"></i> Melhor atendimento ao cliente</li>
+                                <li><i class="fas fa-star" aria-hidden="true"></i> Programa TudoAzul</li>
+                                <li><i class="fas fa-tv" aria-hidden="true"></i> Entretenimento a bordo</li>
                             </ul>
                         </div>
 
@@ -409,21 +601,21 @@
                             <h3>Emirates</h3>
                             <p>Sinônimo de luxo e conforto, conectando o mundo através de Dubai.</p>
                             <ul>
-                                <li><i class="fas fa-plane"></i> Frota A380 e Boeing 777</li>
-                                <li><i class="fas fa-crown"></i> Primeira classe de luxo</li>
-                                <li><i class="fas fa-star"></i> Programa Emirates Skywards</li>
-                                <li><i class="fas fa-utensils"></i> Gastronomia internacional</li>
+                                <li><i class="fas fa-plane" aria-hidden="true"></i> Frota A380 e Boeing 777</li>
+                                <li><i class="fas fa-crown" aria-hidden="true"></i> Primeira classe de luxo</li>
+                                <li><i class="fas fa-star" aria-hidden="true"></i> Programa Emirates Skywards</li>
+                                <li><i class="fas fa-utensils" aria-hidden="true"></i> Gastronomia internacional</li>
                             </ul>
-                        </div>
+                                                    </div>
 
                         <div class="airline-detail" data-airline="lufthansa">
                             <h3>Lufthansa</h3>
                             <p>Tradição alemã em aviação, porta de entrada para a Europa com excelência em serviços.</p>
                             <ul>
-                                <li><i class="fas fa-plane"></i> Frota ecológica moderna</li>
-                                <li><i class="fas fa-leaf"></i> Compromisso sustentável</li>
-                                <li><i class="fas fa-star"></i> Programa Miles & More</li>
-                                <li><i class="fas fa-business-time"></i> Lounges premium</li>
+                                <li><i class="fas fa-plane" aria-hidden="true"></i> Frota ecológica moderna</li>
+                                <li><i class="fas fa-leaf" aria-hidden="true"></i> Compromisso sustentável</li>
+                                <li><i class="fas fa-star" aria-hidden="true"></i> Programa Miles & More</li>
+                                <li><i class="fas fa-business-time" aria-hidden="true"></i> Lounges premium</li>
                             </ul>
                         </div>
 
@@ -431,10 +623,43 @@
                             <h3>American Airlines</h3>
                             <p>Uma das maiores companhias aéreas do mundo, conectando as Américas.</p>
                             <ul>
-                                <li><i class="fas fa-plane"></i> Maior frota comercial do mundo</li>
-                                <li><i class="fas fa-map-marked-alt"></i> Hub em principais cidades americanas</li>
-                                <li><i class="fas fa-star"></i> Programa AAdvantage</li>
-                                <li><i class="fas fa-handshake"></i> Parceria Oneworld Alliance</li>
+                                <li><i class="fas fa-plane" aria-hidden="true"></i> Maior frota comercial do mundo</li>
+                                <li><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Hub em principais cidades americanas</li>
+                                <li><i class="fas fa-star" aria-hidden="true"></i> Programa AAdvantage</li>
+                                <li><i class="fas fa-handshake" aria-hidden="true"></i> Parceria Oneworld Alliance</li>
+                            </ul>
+                        </div>
+
+                        <div class="airline-detail" data-airline="HotelDO">
+                            <h3>HotelDO</h3>
+                            <p>Com 20 anos de experiência, a HotelDO transformou-se na principal plataforma de reservas online para o mercado B2B na América Latina.</p>
+                            <ul>
+                                <li><i class="fas fa-hotel" aria-hidden="true"></i> Milhares de opções de hospedagem</li>
+                                <li><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Ingressos para parques temáticos</li>
+                                <li><i class="fas fa-car" aria-hidden="true"></i> Aluguel de carros</li>
+                                <li><i class="fas fa-handshake" aria-hidden="true"></i> Tarifas dinâmicas</li>
+                            </ul>
+                        </div>
+
+                         <div class="airline-detail" data-airline="Cativa Operadora">
+                            <h3>Cativa Operadora</h3>
+                            <p>Com 22 anos de história, construímos nossa marca e hoje somos uma das melhores operadoras do Brasil.</p>
+                            <ul>
+                                <li><i class="fas fa-hotel" aria-hidden="true"></i> Resorts e hotéis nacionais e internacionais</li>
+                                <li><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Presença de mercado em 25 estados</li>
+                                <li><i class="fas fa-globe" aria-hidden="true"></i> O Globo de Ouro do Turismo é nosso 2024</li>
+                                <li><i class="fas fa-compass" aria-hidden="true"></i>  Embarcado mais de 2 milhões de pessoas</li>
+                            </ul>
+                        </div>
+
+                        <div class="airline-detail" data-airline="Cativa Operadora">
+                            <h3>RCA Turismo</h3>
+                            <p>A RCA nasceu em agosto de 1993 como operadora de turismo.</p>
+                            <ul>
+                                <li><i class="fa-solid fa-ship" aria-hidden="true"></i> Pacotes de viagens para o Caribe</li>
+                                <li><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Oficial da Walt Disney Parks & Resorts</li>
+                                <li><i class="fas fa-globe" aria-hidden="true"></i> Primeiros a comercializar os ingressos físicos </li>
+                                <li><i class="fa-solid fa-suitcase" aria-hidden="true"></i> Pacotes Exclusivos</li>
                             </ul>
                         </div>
 
@@ -442,11 +667,11 @@
                             <div class="progress-bar">
                                 <div class="progress-fill" id="progress-fill"></div>
                             </div>
-                            <span class="progress-text" id="progress-text">1 / 6</span>
+                            <span class="progress-text" id="progress-text">1 / 9</span>
                         </div>
 
                         <div class="navigation-hint">
-                            <p><i class="fas fa-mouse"></i> Role para navegar pelas companhias</p>
+                            <p><i class="fas fa-mouse" aria-hidden="true"></i> Role para navegar pelas companhias</p>
                         </div>
                     </div>
                 </div>
@@ -455,336 +680,330 @@
             <div class="scroll-indicator" id="scroll-indicator">
                 <div class="indicator-text">Continue rolando para próxima seção</div>
                 <div class="indicator-arrow">
-                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
     </section>
 
-
     <!-- Destinations Section -->
-    <section id="destinations" class="destinations">
+    <section id="destinations" class="destinations" role="main">
         <div class="container">
             <div class="section-header">
                 <span class="section-subtitle">Destinos Populares</span>
                 <h2 class="section-title">Lugares que vão <span class="highlight">te encantar</span></h2>
+                <p class="section-description">
+                    Descubra os destinos mais procurados pelos nossos clientes, desde praias paradisíacas até aventuras inesquecíveis
+                </p>
             </div>
 
-            <div class="destinations-filter">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="nacional">Nacional</button>
-                <button class="filter-btn" data-filter="internacional">Internacional</button>
-                <button class="filter-btn" data-filter="aventura">Aventura</button>
+            <div class="destinations-filter" role="tablist" aria-label="Filtros de destinos">
+                <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="destinations-grid">Todos</button>
+                <button class="filter-btn" data-filter="nacional" role="tab" aria-selected="false" aria-controls="destinations-grid">Nacional</button>
+                <button class="filter-btn" data-filter="internacional" role="tab" aria-selected="false" aria-controls="destinations-grid">Internacional</button>
+                <button class="filter-btn" data-filter="aventura" role="tab" aria-selected="false" aria-controls="destinations-grid">Aventura</button>
             </div>
 
-            <div class="destinations-grid">
-                <div class="destination-card" data-category="nacional">
+            <div class="destinations-grid" id="destinations-grid" role="tabpanel">
+                <article class="destination-card" data-category="nacional">
                     <div class="destination-image">
-                        <img src="img/Alagoas.jpg" alt="Alagoas">
+                        <img src="img/Alagoas.jpg" alt="Maragogi Alagoas - Praias paradisíacas com águas cristalinas" width="400" height="300" loading="lazy">
                         <div class="destination-overlay">
                             <div class="destination-info">
-                                <span class="destination-price"></span>
-                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                                <span class="destination-price">Consulte valores</span>
+                                <a href="#contact" class="btn btn-primary btn-small" aria-label="Ver pacote para Alagoas">Ver Pacote</a>
                             </div>
                         </div>
                     </div>
                     <div class="destination-content">
                         <div class="destination-header">
-                            <h3>Alagoas</h3>
-                            <div class="destination-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                           
+                            <div class="destination-rating" aria-label="Avaliação 4.9 de 5 estrelas">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
                                 <span>4.9</span>
                             </div>
                         </div>
-                        <p class="destination-description">Já imaginou conhecer Maragogi - Alagoas ainda esse ano
-                            🤩🏝️Vem com Aventúria que é possível ✅Nossos pacotes são completos e você pode desfrutar de
-                            uma viagem incrível!</p>
+                        <p class="destination-description">Já imaginou conhecer Maragogi - Alagoas ainda esse ano? 🤩🏝️ Vem com Aventúria que é possível ✅ Nossos pacotes são completos e você pode desfrutar de uma viagem incrível!</p>
                         <div class="destination-features">
-                            <span class="feature-tag"><i class="fas fa-mountain"></i> Aventura</span>
-                            <span class="feature-tag"><i class="fas fa-camera"></i> Fotografia</span>
+                            <span class="feature-tag"><i class="fas fa-swimmer" aria-hidden="true"></i> Mergulho</span>
+                            <span class="feature-tag"><i class="fas fa-sun" aria-hidden="true"></i> Praia</span>
+                            <span class="feature-tag"><i class="fas fa-camera" aria-hidden="true"></i> Fotografia</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="destination-card" data-category="internacional">
+                <article class="destination-card" data-category="nacional">
                     <div class="destination-image">
-                        <img src="img/Jericoacoara.jpg" alt="Paris">
+                        <img src="img/Jericoacoara.jpg" alt="Jericoacoara Ceará - Dunas, lagoas e Pedra Furada" width="400" height="300" loading="lazy">
                         <div class="destination-overlay">
                             <div class="destination-info">
-                                <span class="destination-price"></span>
-                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                                <span class="destination-price">Consulte valores</span>
+                                <a href="#contact" class="btn btn-primary btn-small" aria-label="Ver pacote para Jericoacoara">Ver Pacote</a>
                             </div>
                         </div>
                     </div>
                     <div class="destination-content">
                         <div class="destination-header">
-                            <h3>Jericoacoara</h3>
-                            <div class="destination-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h3>Jericoacoara - Ceará</h3>
+                            <div class="destination-rating" aria-label="Avaliação 4.8 de 5 estrelas">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
                                 <span>4.8</span>
                             </div>
                         </div>
-                        <p class="destination-description">Partiu visitar JERICOACOARA 🏝️📌 Jericoacoara é um destino
-                            turístico muito procurado no Ceará por suas belezas naturais, como praias, lagoas, dunas e a
-                            Pedra Furada ✅ Vamos Link na Bio 📲Pode ser realidade 🤩</p>
+                        <p class="destination-description">Partiu visitar JERICOACOARA 🏝️📌 Jericoacoara é um destino turístico muito procurado no Ceará por suas belezas naturais, como praias, lagoas, dunas e a Pedra Furada ✅</p>
                         <div class="destination-features">
-                            <span class="feature-tag"><i class="fas fa-palette"></i> Cultura</span>
-                            <span class="feature-tag"><i class="fas fa-utensils"></i> Gastronomia</span>
+                            <span class="feature-tag"><i class="fas fa-mountain" aria-hidden="true"></i> Aventura</span>
+                            <span class="feature-tag"><i class="fas fa-wind" aria-hidden="true"></i> Kitesurf</span>
+                            <span class="feature-tag"><i class="fas fa-sun" aria-hidden="true"></i> Pôr do sol</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="destination-card" data-category="aventura">
+                <article class="destination-card" data-category="nacional aventura">
                     <div class="destination-image">
-                        <img src="img/nordeste.jpg" alt="Patagônia">
+                        <img src="img/nordeste.jpg" alt="Nordeste brasileiro - Diversidade cultural e paisagens únicas" width="400" height="300" loading="lazy">
                         <div class="destination-overlay">
                             <div class="destination-info">
-                                <span class="destination-price"></span>
-                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                                <span class="destination-price">Consulte valores</span>
+                                <a href="#contact" class="btn btn-primary btn-small" aria-label="Ver pacotes para o Nordeste">Ver Pacote</a>
                             </div>
                         </div>
                     </div>
                     <div class="destination-content">
                         <div class="destination-header">
-                            <h3>Nordeste</h3>
-                            <div class="destination-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h3>Nordeste Brasileiro</h3>
+                            <div class="destination-rating" aria-label="Avaliação 5.0 de 5 estrelas">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
                                 <span>5.0</span>
                             </div>
                         </div>
-                        <p class="destination-description">Vamos explorar seu próximo destino Confira nossos pacotes
-                            incríveis 🤩</p>
+                        <p class="destination-description">Vamos explorar seu próximo destino! Confira nossos pacotes incríveis para conhecer as maravilhas do Nordeste brasileiro 🤩</p>
                         <div class="destination-features">
-                            <span class="feature-tag"><i class="fas fa-palette"></i> Cultura</span>
-                            <span class="feature-tag"><i class="fas fa-utensils"></i> Gastronomia</span>
+                            <span class="feature-tag"><i class="fas fa-palette" aria-hidden="true"></i> Cultura</span>
+                            <span class="feature-tag"><i class="fas fa-utensils" aria-hidden="true"></i> Gastronomia</span>
+                            <span class="feature-tag"><i class="fas fa-music" aria-hidden="true"></i> Música</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="destination-card" data-category="nacional">
+                <article class="destination-card" data-category="nacional">
                     <div class="destination-image">
-                        <img src="img/rio-de-janeiro.jpeg" alt="Fernando de Noronha">
+                        <img src="img/rio-de-janeiro.jpeg" alt="Rio de Janeiro Ilha Grande - Praias paradisíacas e natureza exuberante" width="400" height="300" loading="lazy">
                         <div class="destination-overlay">
                             <div class="destination-info">
-                                <span class="destination-price"></span>
-                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                                <span class="destination-price">Consulte valores</span>
+                                <a href="#contact" class="btn btn-primary btn-small" aria-label="Ver pacote para Rio de Janeiro">Ver Pacote</a>
                             </div>
                         </div>
                     </div>
                     <div class="destination-content">
                         <div class="destination-header">
-                            <h3>Rio de Janeiro</h3>
-                            <div class="destination-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h3>Rio de Janeiro - Ilha Grande</h3>
+                            <div class="destination-rating" aria-label="Avaliação 4.9 de 5 estrelas">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
                                 <span>4.9</span>
                             </div>
                         </div>
-                        <p class="destination-description">🌍 Ilha Grande é um refúgio de beleza natural no litoral do
-                            Rio de Janeiro. Suas praias paradisíacas, como a Praia de Lopes Mendes.</p>
+                        <p class="destination-description">🌍 Ilha Grande é um refúgio de beleza natural no litoral do Rio de Janeiro. Suas praias paradisíacas, como a Praia de Lopes Mendes, são imperdíveis.</p>
                         <div class="destination-features">
-                            <span class="feature-tag"><i class="fas fa-swimmer"></i> Mergulho</span>
-                            <span class="feature-tag"><i class="fas fa-sun"></i> Praia</span>
+                            <span class="feature-tag"><i class="fas fa-swimmer" aria-hidden="true"></i> Mergulho</span>
+                            <span class="feature-tag"><i class="fas fa-sun" aria-hidden="true"></i> Praia</span>
+                            <span class="feature-tag"><i class="fas fa-hiking" aria-hidden="true"></i> Trilhas</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="destination-card" data-category="internacional">
+                <article class="destination-card" data-category="nacional">
                     <div class="destination-image">
-                        <img src="img/sao-luiz.jpeg" alt="Tóquio">
+                        <img src="img/sao-luiz.jpeg" alt="São Luís Maranhão - Centro histórico patrimônio da humanidade" width="400" height="300" loading="lazy">
                         <div class="destination-overlay">
                             <div class="destination-info">
-                                <span class="destination-price"></span>
-                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                                <span class="destination-price">Consulte valores</span>
+                                <a href="#contact" class="btn btn-primary btn-small" aria-label="Ver pacote para São Luís">Ver Pacote</a>
                             </div>
                         </div>
                     </div>
                     <div class="destination-content">
                         <div class="destination-header">
-                            <h3>São Luís</h3>
-                            <div class="destination-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h3>São Luís - Maranhão</h3>
+                            <div class="destination-rating" aria-label="Avaliação 4.7 de 5 estrelas">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
                                 <span>4.7</span>
                             </div>
                         </div>
-                        <p class="destination-description">Tradição e modernidade se encontram na capital japonesa.</p>
+                        <p class="destination-description">Descubra São Luís, a única capital brasileira fundada pelos franceses, com seu centro histórico patrimônio mundial da UNESCO.</p>
                         <div class="destination-features">
-                            <span class="feature-tag"><i class="fas fa-torii-gate"></i> Tradição</span>
-                            <span class="feature-tag"><i class="fas fa-city"></i> Modernidade</span>
+                            <span class="feature-tag"><i class="fas fa-landmark" aria-hidden="true"></i> História</span>
+                            <span class="feature-tag"><i class="fas fa-palette" aria-hidden="true"></i> Cultura</span>
+                            <span class="feature-tag"><i class="fas fa-building" aria-hidden="true"></i> Arquitetura</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="destination-card" data-category="aventura">
+                <article class="destination-card" data-category="nacional aventura">
                     <div class="destination-image">
-                        <img src="img/Porto-de-Galinhas.jpeg" alt="Machu Picchu">
+                        <img src="img/Porto-de-Galinhas.jpeg" alt="Porto de Galinhas Pernambuco - Piscinas naturais e águas cristalinas" width="400" height="300" loading="lazy">
                         <div class="destination-overlay">
                             <div class="destination-info">
                                 <span class="destination-price">A partir de R$ 1.200</span>
-                                <a href="#contact" class="btn btn-primary btn-small">Ver Pacote</a>
+                                                                <a href="#contact" class="btn btn-primary btn-small" aria-label="Ver pacote para Porto de Galinhas">Ver Pacote</a>
                             </div>
                         </div>
                     </div>
                     <div class="destination-content">
                         <div class="destination-header">
-                            <h3>Porto de Galinhas</h3>
-                            <div class="destination-rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h3>Porto de Galinhas - Pernambuco</h3>
+                            <div class="destination-rating" aria-label="Avaliação 4.9 de 5 estrelas">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
                                 <span>4.9</span>
                             </div>
                         </div>
-                        <p class="destination-description">🌍 Porto de Galinhas, um paraíso em Pernambuco! Descubra as
-                            maravilhas de Porto de Galinhas, um dos destinos mais deslumbrantes de Pernambuco.</p>
+                        <p class="destination-description">🌍 Porto de Galinhas, um paraíso em Pernambuco! Descubra as maravilhas de Porto de Galinhas, um dos destinos mais deslumbrantes de Pernambuco.</p>
                         <div class="destination-features">
-                            <span class="feature-tag"><i class="fas fa-landmark"></i> História</span>
-                            <span class="feature-tag"><i class="fas fa-swimmer"></i> Mergulho</span>
-                            <span class="feature-tag"><i class="fas fa-sun"></i> Praia</span>
+                            <span class="feature-tag"><i class="fas fa-swimmer" aria-hidden="true"></i> Mergulho</span>
+                            <span class="feature-tag"><i class="fas fa-sun" aria-hidden="true"></i> Praia</span>
+                            <span class="feature-tag"><i class="fas fa-fish" aria-hidden="true"></i> Piscinas naturais</span>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" role="main">
         <div class="testimonials-background">
-            <div class="testimonials-pattern"></div>
+            <div class="testimonials-pattern" aria-hidden="true"></div>
         </div>
 
         <div class="container">
             <div class="section-header">
                 <span class="section-subtitle">Depoimentos</span>
                 <h2 class="section-title">O que nossos <span class="highlight">clientes dizem</span></h2>
+                <p class="section-description">
+                    Veja os depoimentos reais de clientes que confiaram na Aventúria para realizar seus sonhos de viagem
+                </p>
             </div>
 
-            <div class="testimonials-slider" id="testimonials-slider">
-                <div class="testimonial-slide active">
+            <div class="testimonials-slider" id="testimonials-slider" role="region" aria-label="Depoimentos de clientes">
+                <article class="testimonial-slide active">
                     <div class="testimonial-content">
                         <div class="testimonial-text">
-                            <i class="fas fa-quote-left quote-icon"></i>
-                            <p>"A Aventúria transformou nossa lua de mel em uma experiência mágica! Cada detalhe foi
-                                pensado com carinho. Paris nunca foi tão romântica. Recomendamos de olhos fechados!"</p>
+                            <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+                            <p>"A Aventúria transformou nossa lua de mel em uma experiência mágica! Cada detalhe foi pensado com carinho. Paris nunca foi tão romântica. Recomendamos de olhos fechados!"</p>
                         </div>
                         <div class="testimonial-author">
                             <div class="author-image">
-                                <img src="img/client-maria.jpg" alt="Maria Silva">
+                                <img src="img/client-maria.jpg" alt="Foto de Maria e Carlos Silva" width="80" height="80" loading="lazy">
                             </div>
                             <div class="author-info">
                                 <h4>Maria & Carlos Silva</h4>
-                                <span>Paris, França</span>
-                                <div class="author-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                <span>Lua de mel em Paris, França</span>
+                                <div class="author-rating" aria-label="Avaliação 5 de 5 estrelas">
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="testimonial-slide">
+                <article class="testimonial-slide">
                     <div class="testimonial-content">
                         <div class="testimonial-text">
-                            <i class="fas fa-quote-left quote-icon"></i>
-                            <p>"Incrível como a equipe conseguiu organizar nossa aventura na Chapada Diamantina! Trilhas
-                                espetaculares, hospedagem perfeita e um atendimento que superou todas as expectativas."
-                            </p>
+                            <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+                            <p>"Incrível como a equipe conseguiu organizar nossa aventura na Chapada Diamantina! Trilhas espetaculares, hospedagem perfeita e um atendimento que superou todas as expectativas."</p>
                         </div>
                         <div class="testimonial-author">
                             <div class="author-image">
-                                <img src="img/client-joao.jpg" alt="João Pereira">
+                                <img src="img/client-joao.jpg" alt="Foto de João Pereira" width="80" height="80" loading="lazy">
                             </div>
                             <div class="author-info">
                                 <h4>João Pereira</h4>
-                                <span>Chapada Diamantina, Brasil</span>
-                                <div class="author-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                <span>Aventura na Chapada Diamantina, Brasil</span>
+                                <div class="author-rating" aria-label="Avaliação 5 de 5 estrelas">
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="testimonial-slide">
+                <article class="testimonial-slide">
                     <div class="testimonial-content">
                         <div class="testimonial-text">
-                            <i class="fas fa-quote-left quote-icon"></i>
-                            <p>"Tóquio foi um sonho realizado! A Aventúria cuidou de tudo, desde os voos até as
-                                experiências culturais mais autênticas. Voltaremos com certeza para nossa próxima
-                                aventura!"</p>
+                            <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+                            <p>"Tóquio foi um sonho realizado! A Aventúria cuidou de tudo, desde os voos até as experiências culturais mais autênticas. Voltaremos com certeza para nossa próxima aventura!"</p>
                         </div>
                         <div class="testimonial-author">
                             <div class="author-image">
-                                <img src="img/client-ana.jpg" alt="Ana Costa">
+                                <img src="img/client-ana.jpg" alt="Foto de Ana Costa" width="80" height="80" loading="lazy">
                             </div>
                             <div class="author-info">
                                 <h4>Ana Costa</h4>
-                                <span>Tóquio, Japão</span>
-                                <div class="author-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                <span>Experiência cultural em Tóquio, Japão</span>
+                                <div class="author-rating" aria-label="Avaliação 5 de 5 estrelas">
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
+                                    <i class="fas fa-star" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="testimonials-controls">
-                <button class="testimonial-btn prev-btn" id="prev-testimonial">
-                    <i class="fas fa-chevron-left"></i>
+                <button class="testimonial-btn prev-btn" id="prev-testimonial" aria-label="Depoimento anterior">
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
                 </button>
-                <div class="testimonials-dots" id="testimonials-dots">
-                    <span class="dot active" data-slide="0"></span>
-                    <span class="dot" data-slide="1"></span>
-                    <span class="dot" data-slide="2"></span>
+                <div class="testimonials-dots" id="testimonials-dots" role="tablist" aria-label="Navegação de depoimentos">
+                    <button class="dot active" data-slide="0" role="tab" aria-selected="true" aria-label="Depoimento 1"></button>
+                    <button class="dot" data-slide="1" role="tab" aria-selected="false" aria-label="Depoimento 2"></button>
+                    <button class="dot" data-slide="2" role="tab" aria-selected="false" aria-label="Depoimento 3"></button>
                 </div>
-                <button class="testimonial-btn next-btn" id="next-testimonial">
-                    <i class="fas fa-chevron-right"></i>
+                <button class="testimonial-btn next-btn" id="next-testimonial" aria-label="Próximo depoimento">
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
     </section>
 
-
-
-
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" role="main">
         <div class="container">
             <div class="section-header">
                 <span class="section-subtitle">Entre em Contato</span>
@@ -799,51 +1018,50 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone" aria-hidden="true"></i>
                         </div>
                         <div class="contact-details">
                             <h4>Telefone</h4>
-                            <p>+55 (11) 9999-9999</p>
+                            <p><a href="tel:+5584981733907">+55 (84) 98173-3907</a></p>
                             <span>Seg - Sex: 8h às 18h</span>
                         </div>
                     </div>
 
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
                         </div>
                         <div class="contact-details">
                             <h4>E-mail</h4>
-                            <p>contato@aventuria.com.br</p>
+                            <p><a href="mailto:contato@aventuria.com.br">contato@aventuria.com.br</a></p>
                             <span>Resposta em até 2h</span>
                         </div>
                     </div>
 
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                         </div>
                         <div class="contact-details">
-                            <h4>Endereço</h4>
-                            <p>São Paulo, SP</p>
-                            <span>Atendimento presencial</span>
+                            <h4>Localização</h4>
+                            <p>Rio Grande do Norte, Brasil</p>
+                            <span>Atendimento online</span>
                         </div>
                     </div>
 
                     <div class="contact-social">
                         <h4>Redes Sociais</h4>
                         <div class="social-links">
-                            <a href="https://wa.me/5511999999999" target="_blank" class="social-link whatsapp">
-                                <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/558481733907" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" aria-label="Falar no WhatsApp">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
                                 <span>WhatsApp</span>
                             </a>
-                            <a href="https://instagram.com/aventuriaviagens" target="_blank"
-                                class="social-link instagram">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://instagram.com/aventuriaviagens" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Seguir no Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
                                 <span>Instagram</span>
                             </a>
-                            <a href="mailto:contato@aventuria.com.br" class="social-link email">
-                                <i class="fas fa-envelope"></i>
+                            <a href="mailto:contato@aventuria.com.br" class="social-link email" aria-label="Enviar e-mail">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
                                 <span>E-mail</span>
                             </a>
                         </div>
@@ -851,43 +1069,55 @@
                 </div>
 
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contact-form">
+                    <form class="contact-form" id="contact-form" novalidate>
                         <div class="form-group">
-                            <label for="name">Nome Completo</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" required aria-describedby="name-error">
+                            <span class="error-message" id="name-error"></span>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="email">E-mail</label>
-                                <input type="email" id="email" name="email" required>
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required aria-describedby="email-error">
+                                <span class="error-message" id="email-error"></span>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Telefone</label>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone" aria-describedby="phone-help">
+                                <span class="help-text" id="phone-help">Formato: (XX) XXXXX-XXXX</span>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="destination">Destino de Interesse</label>
-                            <select id="destination" name="destination">
+                            <select id="destination" name="destination" aria-describedby="destination-help">
                                 <option value="">Selecione um destino</option>
-                                <option value="nacional">Destinos Nacionais</option>
+                                <option value="alagoas">Alagoas - Maragogi</option>
+                                <option value="jericoacoara">Jericoacoara - Ceará</option>
+                                <option value="rio-janeiro">Rio de Janeiro - Ilha Grande</option>
+                                <option value="porto-galinhas">Porto de Galinhas - Pernambuco</option>
+                                <option value="sao-luis">São Luís - Maranhão</option>
+                                <option value="nordeste">Nordeste Brasileiro</option>
+                                <option value="nacional">Outros Destinos Nacionais</option>
                                 <option value="internacional">Destinos Internacionais</option>
                                 <option value="personalizado">Viagem Personalizada</option>
                             </select>
+                            <span class="help-text" id="destination-help">Escolha o destino que mais te interessa</span>
                         </div>
 
                         <div class="form-group">
-                            <label for="message">Mensagem</label>
-                            <textarea id="message" name="message" rows="5"
-                                placeholder="Conte-nos sobre sua viagem dos sonhos..."></textarea>
+                            <label for="message">Mensagem *</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Conte-nos sobre sua viagem dos sonhos..." aria-describedby="message-error"></textarea>
+                            <span class="error-message" id="message-error"></span>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-large">
-                            <i class="fas fa-paper-plane"></i>
+                        <button type="submit" class="btn btn-primary btn-large" aria-describedby="submit-help">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
                             Enviar Mensagem
                         </button>
+                        <span class="help-text" id="submit-help">Responderemos em até 2 horas</span>
                     </form>
                 </div>
             </div>
@@ -895,27 +1125,27 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="footer-content">
             <div class="container">
                 <div class="footer-top">
                     <div class="footer-brand">
-                        <div class="footer-logo">
-                            <img src="img/logo-empresa.jpeg" alt="Aventúria">
+                                                <div class="footer-logo">
+                            <img src="img/logo-empresa.jpeg" alt="Aventúria - Agência de Viagens Premium" width="60" height="60">
                         </div>
                         <p class="footer-description">
                             Transformamos seus sonhos em aventuras reais.
                             Sua jornada premium começa aqui.
                         </p>
                         <div class="footer-social">
-                            <a href="https://instagram.com/aventuriaviagens" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://instagram.com/aventuriaviagens" target="_blank" rel="noopener noreferrer" aria-label="Seguir Aventúria no Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
                             </a>
-                            <a href="https://wa.me/558481733907" target="_blank">
-                                <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/558481733907" target="_blank" rel="noopener noreferrer" aria-label="Falar com Aventúria no WhatsApp">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
                             </a>
-                            <a href="mailto:contato@aventuria.com.br">
-                                <i class="fas fa-envelope"></i>
+                            <a href="mailto:contato@aventuriaviagens.com.br" aria-label="Enviar e-mail para Aventúria">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
@@ -924,31 +1154,30 @@
                         <div class="footer-column">
                             <h4>Navegação</h4>
                             <ul>
-                                <li><a href="#home">Início</a></li>
-                                <li><a href="#about">Sobre</a></li>
-                                <li><a href="#services">Serviços</a></li>
-                                <li><a href="#destinations">Destinos</a></li>
-                                <li><a href="#contact">Contato</a></li>
+                                <li><a href="#home" aria-label="Ir para início">Início</a></li>
+                                <li><a href="#about" aria-label="Conhecer sobre nós">Sobre</a></li>
+                                <li><a href="#services" aria-label="Ver nossos serviços">Serviços</a></li>
+                                <li><a href="#destinations" aria-label="Explorar destinos">Destinos</a></li>
+                                <li><a href="#contact" aria-label="Entrar em contato">Contato</a></li>
                             </ul>
                         </div>
 
                         <div class="footer-column">
-                            <h4>Serviços</h4>
+                            <h4>Destinos Populares</h4>
                             <ul>
-                                <li><a href="#services">Pacotes Nacionais</a></li>
-                                <li><a href="#services">Pacotes Internacionais</a></li>
-                                <li><a href="#services">Viagens Personalizadas</a></li>
-                                <li><a href="#services">Suporte 24/7</a></li>
+                                <li><a href="#destinations" aria-label="Pacotes para Alagoas">Alagoas - Maragogi</a></li>
+                                <li><a href="#destinations" aria-label="Pacotes para Jericoacoara">Jericoacoara - CE</a></li>
+                                <li><a href="#destinations" aria-label="Pacotes para Rio de Janeiro">Rio de Janeiro - RJ</a></li>
+                                <li><a href="#destinations" aria-label="Pacotes para Porto de Galinhas">Porto de Galinhas - PE</a></li>
                             </ul>
                         </div>
 
                         <div class="footer-column">
                             <h4>Contato</h4>
                             <ul>
-                                <li><i class="fas fa-phone"></i> +55 (84) 98173-3907</li>
-                                <li><i class="fas fa-envelope"></i> contato@aventuria.com.br</li>
-                                <!---<li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>-->
-                                <li><i class="fab fa-bitcoin"></i> Aceitamos Bitcoin</li>
+                                <li><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+5584981733907">+55 (84) 98173-3907</a></li>
+                                <li><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:contato@aventuria.com.br">contato@aventuriaviagens.com.br</a></li>
+                                <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Rio Grande do Norte, Brasil</li>
                             </ul>
                         </div>
                     </div>
@@ -959,14 +1188,14 @@
                         <p>&copy; 2024 Aventúria - Agência de Viagens. Todos os direitos reservados.</p>
                     </div>
                     <div class="footer-legal">
-                        <a href="#privacy">Política de Privacidade</a>
-                        <a href="#terms">Termos de Uso</a>
+                        <a href="#privacy" aria-label="Ler política de privacidade">Política de Privacidade</a>
+                        <a href="#terms" aria-label="Ler termos de uso">Termos de Uso</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="footer-decoration">
+        <div class="footer-decoration" aria-hidden="true">
             <div class="decoration-element"></div>
             <div class="decoration-element"></div>
             <div class="decoration-element"></div>
@@ -975,15 +1204,15 @@
 
     <!-- Floating WhatsApp Button -->
     <div class="whatsapp-float">
-        <a href="https://wa.me/558481733907" target="_blank" class="whatsapp-btn">
-            <i class="fab fa-whatsapp"></i>
+        <a href="https://wa.me/558481733907" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Falar conosco pelo WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
             <span class="whatsapp-text">Fale Conosco</span>
         </a>
     </div>
 
     <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
-        <i class="fas fa-chevron-up"></i>
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
     </button>
 
     <!-- Scripts -->
@@ -994,16 +1223,163 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
     <!-- Modal simplificado - apenas imagem -->
-    <div class="image-modal" id="imageModal">
+    <div class="image-modal" id="imageModal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
         <div class="modal-overlay"></div>
         <div class="modal-content">
-            <button class="modal-close" id="modalClose">
-                <i class="fas fa-times"></i>
+            <button class="modal-close" id="modalClose" aria-label="Fechar modal">
+                <i class="fas fa-times" aria-hidden="true"></i>
             </button>
-            <img src="img/quem-somos.png" alt="Judson e Joyce - Fundadores da Aventúria" class="modal-image-fullscreen">
+            <img src="img/quem-somos.png" alt="Judson e Joyce - Fundadores da Aventúria" class="modal-image-fullscreen" width="800" height="600">
+            <h2 id="modal-title" class="sr-only">Fundadores da Aventúria</h2>
         </div>
     </div>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://aventuriaviagens.com.br/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sobre",
+                "item": "https://aventuriaviagens.com.br/#about"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Destinos",
+                "item": "https://aventuriaviagens.com.br/#destinations"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Contato",
+                "item": "https://aventuriaviagens.com.br/#contact"
+            }
+        ]
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Quais destinos a Aventúria oferece?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Aventúria oferece pacotes para destinos nacionais como Alagoas (Maragogi), Jericoacoara, Rio de Janeiro, Porto de Galinhas, São Luís e todo o Nordeste brasileiro, além de destinos internacionais personalizados."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "A Aventúria oferece suporte durante a viagem?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim, oferecemos suporte 24 horas por dia, 7 dias por semana, para garantir sua tranquilidade durante toda a viagem."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Como posso entrar em contato com a Aventúria?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Você pode entrar em contato conosco pelo WhatsApp (84) 98173-3907, e-mail contato@aventuria.com.br ou através do nosso Instagram @aventuriaviagens."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "A Aventúria trabalha com quais companhias aéreas?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Trabalhamos com as principais companhias aéreas como LATAM, GOL, Azul, Emirates, Lufthansa e American Airlines para garantir as melhores opções de voo."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- CSS para acessibilidade -->
+    <style>
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        .error-message {
+            color: #e74c3c;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .help-text {
+            color: #6c757d;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .form-group.error .error-message {
+            display: block;
+        }
+
+        .form-group.error input,
+        .form-group.error textarea {
+            border-color: #e74c3c;
+        }
+
+        /* Focus styles for better accessibility */
+        a:focus,
+        button:focus,
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: 2px solid #007bff;
+            outline-offset: 2px;
+        }
+
+        /* Skip to content link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 1000;
+        }
+
+        .skip-link:focus {
+            top: 6px;
+        }
+    </style>
+
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
 
 </body>
 
 </html>
+
+
+
+

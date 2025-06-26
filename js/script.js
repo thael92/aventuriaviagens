@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
 class AirlinesController {
     constructor() {
         this.currentIndex = 0;
-        this.totalCards = 6;
+        this.totalCards = 9;
         this.isScrollLocked = false;
         this.section = document.getElementById('airlines');
         this.stack = document.getElementById('airlines-stack');
